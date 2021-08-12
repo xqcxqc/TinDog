@@ -1,0 +1,218 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#title {
+  background-color: #FF4C68;
+  color: white;
+  /* padding-bottom: 20px; */
+  padding-bottom: 7%;
+}
+
+.container-fluid {
+  padding: 1% 15%;
+}
+
+/* Navigation Bar */
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+/* h1 Messages */
+.heading {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.5;
+  font-size: 3.5rem;
+  font-weight: 900;
+  /* margin-bottom: 50px; */
+}
+
+/* Download buttom */
+.Download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* title image */
+.iphone {
+  position: absolute;
+  top: 120px;
+  /* left: 55%; */
+  right: 22%;
+  width: 18%;
+  transform: rotate(25deg);
+
+}
+
+
+/* Second section */
+#features {
+  position: relative;
+  padding: 7% 5%;
+  text-align: center;
+  background-color: white;
+}
+
+.s2-col{
+  margin: 1rem auto 4.5rem auto;
+}
+
+/* image icons */
+.s2-img {
+  color: #ef8172;
+  /* width: 100%; */
+  /* text-align: center; */
+}
+
+.s2-img:hover {
+  color: #ff4c68;
+}
+
+.s2-h3 {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 1rem auto 1rem auto;
+  /* text-align: center; */
+}
+
+.s2-p {
+  color: #8f8f8f;
+  /* text-align: center; */
+}
+
+
+
+/* testimonials section */
+
+#testimonials{
+  /* padding: 7% 5%; */
+  text-align: center;
+  background-color: #FF4C68;
+  color: white;
+}
+
+.carousel-item{
+  padding: 7% 5%;
+}
+/*
+@media{
+  h2{
+    font-size: 2rem;
+  }
+} */
+
+.s3-h2{
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.s3-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press{
+  background-color: #FF4C68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.s4-img{
+  margin: 1rem;;
+  width: 10%;
+}
+
+
+/* price section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.price-col{
+  padding: 3% 5%;
+}
+
+.s5-h2{
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.s5-h3{
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin: 1rem auto 1rem auto;
+}
+
+/* cta section (s6)*/
+#cta{
+  text-align: center;
+  padding: 5% 5%;
+  background-color: #ff4c68;
+}
+.s6-h3{
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 900;
+}
+
+/* last section  */
+#footer{
+  padding: 4% 5%;
+  text-align: center;
+  background-color: #fff;
+}
+.s7-p{
+  color: #787A91;
+  font-size: 0.75rem;
+}
+
+
+@media (max-width:1200px) {
+  .iphone{top: 160px;}
+  .heading{
+    font-size: 2.5rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .iphone{
+    position: static;
+    top: auto;
+    right: auto;
+    width:60%;
+    transform: rotate(0);
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+  .heading{
+    font-size: 2.5rem;
+  }
+  #title{
+    text-align: center;
+  }
+   .s3-h2{
+    font-size: 2rem;
+  }
+  .s3-img{
+    width: 20%;
+  }
+}
